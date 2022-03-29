@@ -107,3 +107,24 @@ body{
     height: 100px;
     object-fit: contain;
 }
+
+.quote{
+    background-color: var(--quoteBG);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p{
+    font-size: 36px;
+    color: var(--quote);
+    font-style: italic;
+}
+
+.god{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}

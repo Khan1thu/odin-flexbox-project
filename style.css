@@ -39,6 +39,7 @@ body{
 
 .nav .right li{
     margin: 0 15px;
+    cursor: pointer;
 }
 
 /* header start here */
@@ -76,4 +77,33 @@ body{
     height: 200px;
     object-fit: cover;
     margin: 50px 0;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.in-title{
+    margin: 30px auto;
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--quote);
+}
+
+.in-cards{
+    display: flex;
+}
+
+.card{
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.card img{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
 }

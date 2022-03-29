@@ -128,3 +128,50 @@ body{
     display: flex;
     justify-content: flex-end;
 }
+
+/* sign up start here */
+.sign-up{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-wrapper{
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--buttonColor);
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.sign-wrapper .left h1{
+    color: var(--heroLogo);
+}
+
+.sign-wrapper .left p{
+    color: var(--heroLogo);
+}
+
+.sign-wrapper .right button{
+    width: 90px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    border: 2px solid white;
+    color: white;
+    background-color: var(--buttonColor);
+    font-weight: bold;
+}
+
+/* footer start here */
+footer{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--hero);
+    color: white;
+    align-items: center;
+}

@@ -1,0 +1,42 @@
+:root{
+    --hero : #1F2937;
+    --heroMainText : #F9FAF8;
+    --heroSecondryText : #E5E7EB;
+    --heroLogo : #F9FAF8;
+    
+    --buttonColor : #3882F6;
+    --headerInformation : #1F2937;
+    --quoteBG : #E5E7EB;
+    --quote : #1F2937;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* nav start here */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--hero);
+    padding: 0 50px 0 50px;
+}
+
+.nav h1{
+    font-size: 24px;
+    color: var(--heroLogo);
+}
+
+.nav .right ul{
+    list-style: none;
+    display: flex;
+    color: var(--heroSecondryText);
+}
+
+.nav .right li{
+    margin: 0 15px;
+}
